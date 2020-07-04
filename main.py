@@ -17,11 +17,26 @@
 # print(Decimal(0.1 + 0.2))
 # print(Decimal(0.3))
 
-myString = 'abcdefgh'
+# myString = 'abcdefgh'
 
-print(len(myString))
+# print(len(myString))
 
-print(myString[1:])
-print(myString[1:-1])
-print(myString[:])
+# print(myString[1:])
+# print(myString[1:-1])
+# print(myString[:])
+
+# print(myString.split('h'))
+
+my_list = ['g', 'i','a', 'h','b', 'e', 'c', 'd', 'e', 'f']
+print(my_list)
+
+my_list.sort()
+my_sorted_list = my_list
+print(my_sorted_list)
+print(my_list)
+
+
+
+
+
 
